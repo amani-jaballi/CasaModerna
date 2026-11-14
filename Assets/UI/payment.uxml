@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/PaymentForm.uss?fileID=7433441132597879392&amp;guid=f1887a2f6d7c6414da7ec5e5014dd5d0&amp;type=3#PaymentForm" />
+    <ui:Label text="Complete Your Purchase" class="section-title" style="color: rgb(43, 33, 29); font-size: 35px; font-weight: bold; -unity-text-align: upper-center; -unity-font: url(&quot;project://database/Assets/Fonts/Limelight-Regular.ttf?fileID=12800000&amp;guid=9d13400ec2ddbe0409e402246a571086&amp;type=3#Limelight-Regular&quot;); -unity-font-definition: initial;" />
+    <ui:VisualElement name="VisualElement" class="form-root" style="width: 1200px; padding: 20px; background-color: rgb(255, 248, 240); align-self: center; top: 0; bottom: 0; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; height: 1000px;">
+        <ui:TextField name="emailField" label="Email" placeholder-text="Enter your email" style="background-color: rgba(255, 248, 240, 0.95); font-size: 20px; font-weight: bold; -unity-font-style: bold; color: rgb(105, 72, 61);" />
+        <ui:Label text="Shipping Address" class="section-title" style="color: rgb(51, 31, 23); font-size: 25px; font-weight: bold; -unity-font-style: bold;" />
+        <ui:VisualElement class="row">
+            <ui:TextField name="firstNameField" label="First Name" placeholder-text="Enter your first name" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; color: rgb(105, 72, 61); -unity-font-style: bold; top: 20px; bottom: 0;" />
+        </ui:VisualElement>
+        <ui:TextField name="addressField" label="Address" placeholder-text="123 Main St, City, Country" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; color: rgb(105, 72, 61); -unity-font-style: bold; top: 20px;" />
+        <ui:DropdownField name="countryField" label="Country" choices="France, Tunisia, Algeria, Morocco" value="France" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; color: rgb(105, 72, 61); -unity-font-style: bold; top: 20px;" />
+        <ui:TextField name="cityField" label="City" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; -unity-font-style: bold; color: rgb(105, 72, 61); top: 20px;" />
+        <ui:TextField name="postalCodeField" label="Postal Code" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; -unity-font-style: bold; color: rgb(105, 72, 61); top: 20px;" />
+        <ui:TextField name="phoneField" label="Phone" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; -unity-font-style: bold; color: rgb(105, 72, 61); top: 20px;" />
+        <ui:Label text="Payment" class="section-title" style="color: rgb(14, 13, 10); font-size: 25px; font-weight: bold; -unity-font-style: bold; top: 20px;" />
+        <ui:TextField name="cardNumberField" label="Card Number" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; color: rgb(105, 72, 61); -unity-font-style: bold; top: 20px;" />
+        <ui:VisualElement class="row" style="margin-top: 10px; top: 10px;">
+            <ui:TextField name="expiryField" label="Expiry (MM/YY)" style="background-color: rgb(255, 248, 240); font-size: 20px; color: rgb(105, 72, 61); -unity-font-style: bold; top: 20px;" />
+            <ui:TextField name="cvcField" label="CVC" style="background-color: rgb(255, 248, 240); font-size: 20px; font-weight: bold; -unity-font-style: bold; color: rgb(105, 72, 61); top: 20px;" />
+        </ui:VisualElement>
+        <ui:Button name="confirmButton" text="Confirm Order" class="confirm-button" style="width: 342px; height: 60px; align-self: center; border-radius: 10px; font-size: 30px; font-weight: bold; margin-top: 20px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/SharedAssets/TextMeshPro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); -unity-font-style: bold; top: 10px;" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="messageLabel" style="-unity-text-align: upper-center; font-size: 30px; -unity-font-style: normal; background-color: rgba(190, 33, 33, 0); -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/SharedAssets/Benchmark/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=6d95650cc66853a48b4ff8f614921f1e&amp;type=3#NotInter-Regular&quot;); top: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

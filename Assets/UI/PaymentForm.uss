@@ -1,0 +1,114 @@
+/* ================= ROOT ================= */
+.form-root {
+    padding: 20px;
+    flex-direction: column;
+    background-color: #fdf6f0; /* soft nude background */
+    color: #3e2723; /* dark brown text */
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+
+/* ================= SECTION TITLES ================= */
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4e342e; /* deep brown */
+}
+
+.section-subtitle {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #6d4c41; /* medium brown */
+}
+
+/* ================= TEXT FIELDS ================= */
+TextField {
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #d7ccc8; /* light brown border */
+    background-color: #fff8f0; /* nude background */
+    color: #3e2723;
+}
+
+TextField:focus {
+    border-color: #8d6e63;
+}
+
+/* ================= DROPDOWNS ================= */
+DropdownField {
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #d7ccc8;
+    background-color: #fff8f0;
+    color: #3e2723;
+}
+
+/* ================= TOGGLES ================= */
+Toggle {
+    margin-bottom: 12px;
+    color: #4e342e;
+}
+
+/* ================= RADIO BUTTONS ================= */
+RadioButton {
+    margin-bottom: 8px;
+    color: #4e342e;
+}
+
+/* ================= HELP BOX ================= */
+HelpBox {
+    margin-bottom: 15px;
+    background-color: #efebe9;
+    border-radius: 5px;
+    padding: 10px;
+    color: #5d4037;
+    font-size: 12px;
+}
+
+/* ================= ROW ELEMENTS ================= */
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row TextField {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.row TextField:last-child {
+    margin-right: 0;
+}
+
+/* ================= BUTTON ================= */
+.confirm-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #8d6e63; /* medium brown */
+    color: #fff8f0; /* nude text */
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    unity-text-align: middle-center;
+}
+
+.confirm-button:hover {
+    background-color: #7b5e57;
+}
+
+.confirm-button:active {
+    background-color: #6d4c41;
+}
+
+/* ================= INFO TEXT ================= */
+.info-text, .card-icons {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #6d4c41;
+}

@@ -1,0 +1,109 @@
+/* Modern Label Style */
+Label {
+    font-size: 16px;
+    color: #5C4033;
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Button Base Style */
+Button {
+    min-width: 120px;
+    min-height: 40px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    transition-duration: 0.2s;
+    border-width: 0px;
+}
+
+/* Button 1 - Primary Brown */
+Button.primary {
+    background-color: #8B6F47;
+    color: #FFFFFF;
+}
+
+Button.primary:hover {
+    background-color: #A0826D;
+}
+
+Button.primary:active {
+    background-color: #6B4E3D;
+}
+
+/* Button 2 - Nude Background */
+Button.nude {
+    background-color: #E8D5C4;
+    color: #5C4033;
+    border-width: 1px;
+    border-color: #D4C4B0;
+}
+
+Button.nude:hover {
+    background-color: #D4C4B0;
+    border-color: #C9B99B;
+}
+
+Button.nude:active {
+    background-color: #C9B99B;
+}
+
+/* Button 3 - Brown Outline */
+Button.outline {
+    background-color: transparent;
+    color: #8B6F47;
+    border-width: 2px;
+    border-color: #8B6F47;
+}
+
+Button.outline:hover {
+    background-color: #8B6F47;
+    color: #FFFFFF;
+}
+
+Button.outline:active {
+    background-color: #6B4E3D;
+    border-color: #6B4E3D;
+}
+
+/* Button 4 - Nude to Brown Gradient Effect */
+Button.gradient {
+    background-color: #D4C4B0;
+    color: #5C4033;
+    border-width: 1px;
+    border-color: #A0826D;
+}
+
+Button.gradient:hover {
+    background-color: #A0826D;
+    color: #FFFFFF;
+    border-color: #8B6F47;
+}
+
+Button.gradient:active {
+    background-color: #7D6B5A;
+    border-color: #6B4E3D;
+}
+
+/* Button 5 - Dark Brown */
+Button.dark {
+    background-color: #5C4033;
+    color: #E8D5C4;
+}
+
+Button.dark:hover {
+    background-color: #6B4E3D;
+}
+
+Button.dark:active {
+    background-color: #4A3328;
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23896679431",
+    "project_id": "casa-moderna-df2bc",
+    "storage_bucket": "casa-moderna-df2bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23896679431:android:b894a2bb79f684f7f076a2",
+        "android_client_info": {
+          "package_name": "CasaModerna.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKpGKES7ZoMDAyLrLBTcvFnNS7Jk0phbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
